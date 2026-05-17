@@ -1,5 +1,7 @@
 # Dify 知识库使用指南
 基于 Dify 构建的智能知识库，支持文档上传、自动解析、语义检索、智能问答，可快速对接业务场景，实现知识高效管理与问答赋能。
+<img width="2097" height="814" alt="image" src="https://github.com/user-attachments/assets/e2d614fd-40ed-4bf3-8380-6f5f68c433cd" />
+
 
 ## 一、项目简介
 本项目依托 **Dify 平台**搭建个人专属知识库，通过上传结构化/非结构化文档（PDF/Word/Excel/Markdown 等），自动完成文本切片、向量化存储，结合大语言模型实现**精准语义检索、智能问答**，无需复杂开发即可快速落地应用。
