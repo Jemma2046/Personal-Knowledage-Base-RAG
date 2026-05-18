@@ -1,6 +1,65 @@
+Personal Knowledge Base Built with Dify (RAG‑Based Solution)
+
+English Version
+
+Project Overview
+
+a private RAG‑powered personal knowledge base using Dify and open‑source LLMs, following standard RAG pipeline architecture to centralise materials and documents into a retrievable, accurate knowledge system.
+<img width="2097" height="814" alt="image" src="https://github.com/user-attachments/assets/e2d614fd-40ed-4bf3-8380-6f5f68c433cd" />
+
+demo: 
+.......
+
+Core Business Value
+
+• Eliminates AI hallucinations by anchoring outputs to verified personal and professional materials.
+
+• Enables instant access to proprietary domain knowledge without repeated manual searching.
+
+• Delivers a low‑code, scalable solution to build internal enterprise knowledge hubs, fully transferable to AXA’s AI learning and enablement scenarios.
+
+RAG‑Driven Implementation Workflow
+
+1. Ingestion: Import unstructured data including PDFs, text notes and internal documents, then split raw content into fine‑grained text chunks and generate vector embeddings.
+
+2. Storage: Store embeddings and original text in a vector database connected via Dify, supporting efficient semantic search and long‑term knowledge accumulation.
+
+3. Retrieval: When querying professional questions, the system automatically searches for context‑matched content from the knowledge base based on semantic similarity.
+
+4. Augmentation & Generation: Inject retrieved relevant chunks into LLM prompts, enabling the model to generate grounded, non‑hallucinatory responses supported by my private data.
+   
+
+中文版本
+
+项目概述
+
+我基于 Dify平台结合开源大模型，搭建了一套RAG架构的个人私有知识库，将零散的学习资料、专业文档和笔记等非结构化数据整合为可检索、高精准的知识系统。
+
+核心业务价值
+
+• 依托真实资料锚定AI输出，从根源减少大模型幻觉问题，保证回答严谨合规；
+
+• 实现私有专业知识快速调取，无需重复翻阅资料，大幅提升学习与工作效率；
+
+• 提供低代码、可规模化的企业内部知识库搭建方案，可直接迁移应用于AXA内部AI学习赋能场景。
+
+基于RAG的实现流程
+
+1. 数据摄取（Ingestion）：导入PDF、笔记、文档等非结构化资料，将原始内容切分为文本片段，生成向量嵌入（embeddings）。
+
+2. 向量存储（Storage）：通过Dify对接向量数据库，保存向量数据与原文，实现语义级检索与知识长期沉淀。
+
+3. 智能检索（Retrieval）：当查询专业问题时，系统根据语义相似度，从知识库中匹配并调取最相关的内容片段。
+
+4. 增强生成（Augmentation & Generation）：将检索到的上下文注入大模型提示词，让AI基于私有资料生成有依据、无幻觉的精准回答。
+
+
+
+
+
+
 # Dify 知识库使用指南
 基于 Dify 构建的智能知识库，支持文档上传、自动解析、语义检索、智能问答，可快速对接业务场景，实现知识高效管理与问答赋能。
-<img width="2097" height="814" alt="image" src="https://github.com/user-attachments/assets/e2d614fd-40ed-4bf3-8380-6f5f68c433cd" />
 
 
 ## 一、项目简介
@@ -63,6 +122,4 @@ Dify 提供标准化 API，可快速集成到外部系统：
 3. **回答偏离知识库**：开启「严格依赖知识库」，优化prompt
 4. **API 调用失败**：检查 API Key、权限、请求参数
 
-## 八、demo
-...
 ---
